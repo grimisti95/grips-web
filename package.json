@@ -1,0 +1,14 @@
+{
+  "name": "grips-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sitio público independiente de GRIPS. HTML, CSS, JavaScript y SVG sin dependencias.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "check": "node scripts/check.mjs",
+    "check:publish": "node scripts/check.mjs --publish",
+    "build": "node scripts/check.mjs"
+  }
+}
